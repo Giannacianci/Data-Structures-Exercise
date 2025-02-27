@@ -1,0 +1,45 @@
+//1
+const jedi = [];
+jedi[0] = "Luke";
+jedi.push("Obi-Wan Kenobi");
+console.log(jedi);
+jedi.unshift("Yoda");
+console.log(jedi[1]);
+jedi.pop();
+jedi.shift();
+console.log(jedi);
+
+//2
+const imperialOfficers = ["Grand Moff Tarkin", "Orson Krennic"];
+const sithLords = ["Darth Maul", "Darth Vader", "Emperor Palpatine"];
+const starWarsVillains = sithLords.concat(imperialOfficers);
+console.log(starWarsVillains); 
+const selectedVillains = starWarsVillains.slice(0, 4); 
+console.log(selectedVillains);
+
+//3
+const droids = {
+    astromech: "R2-D2",
+    protocol: "C-3PO",
+    assassin: "IG-88"
+  };
+  console.log(droids["astromech"]); 
+  droids.assassin = "IG-11"
+  console.log(droids);
+  
+  //4
+  const starWarsVillains = ["Darth Vader", "Kylo Ren", "Emperor Palpatine"];
+console.log(starWarsVillains[0][5]);
+
+  
+  
+
+  
+  
+
+
+
+
+
+
+
