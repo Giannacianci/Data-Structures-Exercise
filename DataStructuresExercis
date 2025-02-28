@@ -42,7 +42,6 @@ const starWarsMovies = [
     { episodeSeven: "The Force Awakens", episodeEight: "The Last Jedi", episodeNine: "The Rise of Skywalker" }
 ];
 
-// 6
 starWarsMovies.splice(1, 0, "Solo", "Rogue One");
 
 console.log(starWarsMovies);
